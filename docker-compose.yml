@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:latest
+    image: ollama/ollama:latest # ~ 3.48 GB
     container_name: ollama
     ports:
       - "11434:11434"
@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   webui:
-    image: ghcr.io/open-webui/open-webui:main
+    image: ghcr.io/open-webui/open-webui:main # ~ 4.5 GB
     container_name: ollama-webui
     expose:
      - 8080/tcp
