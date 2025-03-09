@@ -1,4 +1,4 @@
-# OLLAMA WITH DOCKER
+# OLLAMA + DOCKER
 
 ## Maqsad
 - Docker bilan ollama dasturida suniy inellekt modellarini ishlatishni o'rganish.
